@@ -1,0 +1,2485 @@
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-0.pcm
+[voice_semantic_thread in semantic.c:127] Debug: semantic:pcm_file = record-0.pcm
+[voice_semantic_thread in semantic.c:132] Info: #########################################################################
+[voice_semantic_thread in semantic.c:133] Info: ## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+[voice_semantic_thread in semantic.c:134] Info: ###########################################################################
+
+[voice_semantic_thread in semantic.c:136] Info: 读取音频文件>>>>>> [voice_semantic_thread in semantic.c:143] Info: 成功
+[voice_semantic_thread in semantic.c:147] Info: 上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:310] Debug: iflytek_semantic_api start ...
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-1.pcm
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-2.pcm
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-3.pcm
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-0.pcm
+[voice_semantic_thread in semantic.c:127] Debug: semantic:pcm_file = record-0.pcm
+[voice_semantic_thread in semantic.c:132] Info: #########################################################################
+[voice_semantic_thread in semantic.c:133] Info: ## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+[voice_semantic_thread in semantic.c:134] Info: ###########################################################################
+
+[voice_semantic_thread in semantic.c:136] Info: 读取音频文件>>>>>> [voice_semantic_thread in semantic.c:143] Info: 成功
+[voice_semantic_thread in semantic.c:147] Info: 上传音频文件>>>>>> iflytek_semantic_api start ...
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-1.pcm
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+[voice_semantic_thread in semantic.c:136] Info: 读取音频文件>>>>>> [voice_semantic_thread in semantic.c:143] Info: 成功
+上传音频文件>>>>>> [voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-1.pcm
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> iflytek_semantic_api start ...
+http_post_request start ...
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> iflytek_semantic_api start ...
+http_post_request start ...
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[iflytek_semantic_api in iflytek_semantic.c:355] Error: iflytek_semantic_process failed
+失败
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> iflytek_semantic_api start ...
+http_post_request start ...
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[iflytek_semantic_api in iflytek_semantic.c:355] Error: iflytek_semantic_process failed
+失败
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> iflytek_semantic_api start ...
+http_post_request start ...
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> iflytek_semantic_api start ...
+http_post_request start ...
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[iflytek_semantic_api in iflytek_semantic.c:355] Error: iflytek_semantic_process failed
+失败
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> iflytek_semantic_api start ...
+http_post_request start ...
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[iflytek_semantic_api in iflytek_semantic.c:355] Error: iflytek_semantic_process failed
+失败
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:247] Debug: data ... yes
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:299] Debug: data ... end
+[voice_detect_thread in detect.c:300] Debug: detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [voice_detect_thread in detect.c:279] Debug: data ... no
+[iflytek_semantic_api in iflytek_semantic.c:351] Error: iflytek_semantic_process failed
+失败
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+[voice_detect_thread in detect.c:279] Debug: data ... no
+data ... yes
+data ... yes
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:351] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... yes
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:351] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-2.pcm
+semantic:pcm_file = record-2.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:351] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:351] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:351] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+成功
+[voice_semantic_thread in semantic.c:167] Info: 语义解析时发生了错误
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:353] Error: iflytek_semantic_process failed
+失败
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+语义识别成功，将进行语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:353] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:353] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-2.pcm
+semantic:pcm_file = record-2.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:353] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-3.pcm
+semantic:pcm_file = record-3.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:353] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-4.pcm
+semantic:pcm_file = record-4.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:353] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-5.pcm
+semantic:pcm_file = record-5.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-6.pcm
+semantic:pcm_file = record-6.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... yes
+data ... yes
+成功
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-7.pcm
+semantic:pcm_file = record-7.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+data ... no
+data ... no
+成功
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-8.pcm
+semantic:pcm_file = record-8.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:353] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-9.pcm
+semantic:pcm_file = record-9.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:353] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-10.pcm
+semantic:pcm_file = record-10.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-11.pcm
+semantic:pcm_file = record-11.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... yes
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:353] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:353] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[call_back_request in http_post.c:48] Error: malloc:Cannot allocate memory
+[iflytek_semantic_api in iflytek_semantic.c:342] Error: http_post_request failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[call_back_request in http_post.c:48] Error: malloc:Cannot allocate memory
+[iflytek_semantic_api in iflytek_semantic.c:342] Error: http_post_request failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-2.pcm
+semantic:pcm_file = record-2.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-3.pcm
+semantic:pcm_file = record-3.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-4.pcm
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+成功
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-2.pcm
+semantic:pcm_file = record-2.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-3.pcm
+semantic:pcm_file = record-3.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-4.pcm
+semantic:pcm_file = record-4.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-5.pcm
+semantic:pcm_file = record-5.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-6.pcm
+semantic:pcm_file = record-6.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-7.pcm
+semantic:pcm_file = record-7.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-8.pcm
+semantic:pcm_file = record-8.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-9.pcm
+semantic:pcm_file = record-9.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-10.pcm
+semantic:pcm_file = record-10.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... yes
+成功
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-11.pcm
+semantic:pcm_file = record-11.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+成功
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-12.pcm
+semantic:pcm_file = record-12.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-13.pcm
+semantic:pcm_file = record-13.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+成功
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... yes
+成功
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... yes
+[iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-0.pcm
+semantic:pcm_file = record-0.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> [iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-1.pcm
+semantic:pcm_file = record-1.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+data ... no
+成功
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-2.pcm
+semantic:pcm_file = record-2.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-3.pcm
+semantic:pcm_file = record-3.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-4.pcm
+semantic:pcm_file = record-4.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-5.pcm
+semantic:pcm_file = record-5.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-6.pcm
+semantic:pcm_file = record-6.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-7.pcm
+semantic:pcm_file = record-7.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+data ... no
+成功
+语义识别成功，将进行语音合成
+即将开始语音合成
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-8.pcm
+semantic:pcm_file = record-8.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... yes
+data ... yes
+data ... no
+data ... no
+data ... yes
+data ... no
+data ... no
+data ... no
+data ... no
+data ... no
+data ... end
+detect: pcm_file ... record-9.pcm
+semantic:pcm_file = record-9.pcm
+#########################################################################
+## 语音识别技术（SEMANTIC）能够将语音转换成对应的文字并根据语义返回结果。##
+###########################################################################
+
+读取音频文件>>>>>> 成功
+上传音频文件>>>>>> data ... no
+[iflytek_semantic_api in iflytek_semantic.c:358] Error: iflytek_semantic_process failed
+失败
+data ... yes
+data ... yes
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... no
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes
+data ... yes

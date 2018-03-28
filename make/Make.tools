@@ -1,0 +1,29 @@
+# $Id: Make.tools,v 0.0.1 CBB $
+
+#
+# Author:  Zengchao
+# Contact: zengchao@cqu.edu.cn
+# Licence: Belong to the author 
+# Date:    2017.12.23
+#
+
+# cross compiler variable
+
+#CROSS_COMPILE := arm-linux-
+CROSS_COMPILE := 
+
+CC := $(CROSS_COMPILE)gcc
+AR := $(CROSS_COMPILE)ar
+CXX := $(CROSS_COMPILE)g++
+STRIP := $(CROSS_COMPILE)strip
+OBJCOPY := $(CROSS_COMPILE)objcopy
+
+# common shell command
+CURR_DIR = $(shell pwd)
+MAKE := make
+CP := cp
+ECHO := echo
+MKDIR := mkdir
+RM := rm -f
+
+

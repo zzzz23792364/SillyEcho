@@ -1,0 +1,25 @@
+# $Id: Make.lib,v 0.0.1 CBB $
+
+#
+# Author:  Zengchao
+# Contact: zengchao@cqu.edu.cn
+# Licence: Belong to the author 
+# Date:    2017.12.23
+#
+
+module_name ?= $(notdir $(CURDIR))
+
+targetlib = $(addprefix $(CBB_LIB)/lib,$(module_name))
+
+srcs = $(wildcard *.c)
+objs = $(patsubst %.c,%.o,$(srcs))
+deps = $(srcs:.c=.d)
+
+ifneq ($(MAKE_SHARED_LIB),)
+sinclude $(CBB_BASE)/make/Make.sharedlib
+else
+sinclude $(CBB_BASE)/make/Make.staticlib
+endif
+
+
+

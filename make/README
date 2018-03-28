@@ -1,0 +1,25 @@
+# $Id: README,v 0.0.1 CBB $
+
+#
+# Author:  Zengchao
+# Contact: zengchao@cqu.edu.cn
+# Licence: Belong to the author 
+# Date:    2018.01.02
+#
+
+该文档主要用于介绍本工程的Makefile框架。
+
+/make
+	|
+	+--Make.local：Makefile配置文件，包括静态库、动态库编译选择，是否安静编译，动态库版本号。
+	+--Make.lib：用于生成库的Makefile
+	|  |
+	|  +--Make.staticlib：生成静态库
+	|  +--Make.sharedlib：生成动态库
+	|  
+	+--Make.subdirs：进入子文件夹Makefile编译
+	+--Make.target：生成目标可执行文件Makefile
+	+--Make.tools：配置编译工具链
+	+--Make.generic：头文件路径、CFLAGS等变量的赋值
+
+

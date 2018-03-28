@@ -1,0 +1,19 @@
+# $Id: Make.subdirs,v 0.0.1 CBB $
+
+#
+# Author:  Zengchao
+# Contact: zengchao@cqu.edu.cn
+# Licence: Belong to the author 
+# Date:    2017.12.23
+#
+
+.PHONY: ${subdirs} suddir_clean 
+
+$(subdirs):
+	$(Q)$(MAKE) -C $@
+
+suddir_clean:
+	$(Q)(for name in $(subdirs); do $(MAKE) -C $$name clean; done)
+
+	
+

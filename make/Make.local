@@ -1,0 +1,17 @@
+# $Id: Make.local,v 0.0.1 CBB $
+
+#
+# Author:  Zengchao
+# Contact: zengchao@cqu.edu.cn
+# Licence: Belong to the author 
+# Date:    2017.12.23
+#
+
+export Q=
+export MAKE_SHARED_LIB=
+export SHAREDLIBVER=0.2
+
+
+
+
+

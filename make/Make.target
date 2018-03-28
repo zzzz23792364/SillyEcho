@@ -1,0 +1,77 @@
+# $Id: Make.target,v 0.0.1 CBB $
+
+#
+# Author:  Zengchao
+# Contact: zengchao@cqu.edu.cn
+# Licence: Belong to the author 
+# Date:    2017.12.23
+#
+
+
+module_name = $(notdir $(CURDIR))
+
+suffix := .out
+
+ifeq ($(target_path),)
+target_path := .
+endif
+
+
+ifeq ($(targetname),)
+targetname = $(addprefix $(target_path)/,$(addsuffix $(suffix),$(module_name)))
+endif
+
+targetmap = $(CBB_BIN)/$(addsuffix .map,$(module_name))
+
+srcs := $(wildcard *.c)
+objs := $(patsubst %.c,%.o,$(srcs))
+deps := $(srcs:.c=.d)
+
+#subdir_objs=$(wildcard $(CBB_OBJ)/*.o)
+
+.PHONY: $(targetname) cur_objs subdir_objs clean 
+
+LDFLAGS += -lpthread -lm -lrt
+
+
+all:  $(targetname)
+
+#$(targetname).strip:$(targetname) 
+#	$(OBJCOPY) --strip-debug $< $@
+
+ifeq ($(MAKE_SHARED_LIB),)
+suddirs_staticlib=$(addprefix $(CBB_LIB)/lib,$(addsuffix .a,$(subdirs)))
+endif
+
+$(targetname):cur_objs subdir_objs $(other_libs_objs) $(suddirs_staticlib)
+	$(CC) $(CFLAGS) $(objs) $(wildcard $(CBB_OBJ)/*.o) -o $@ $(other_libs_objs) $(suddirs_staticlib) \
+	-Wl,--start-group  -Wl,--end-group -Wl,-Map,$(targetmap) $(LDFLAGS)
+
+
+cur_objs:$(objs)
+subdir_objs:$(subdirs)
+$(suddirs_staticlib):$(subdirs)
+
+
+sinclude $(deps)
+
+%.o:%.c
+	$(Q)$(ECHO) "$(CC) $<"
+	$(Q)$(CC) $(CFLAGS) -c $< -o $@ $(LDFLAGS)
+	
+%.d:%.c	
+	$(Q)$(CC) -M $(CFLAGS) $< > $@.$$$$ 2>/dev/null;\
+	sed 's,\($*\)\.o[:]*,\1.o $@:,g' < $@.$$$$ > $@;\
+	rm -f $@.$$$$
+	
+%:%.c
+	$(CC) $(CFLAGS) -o $< $(LDFLAGS) -o $@
+
+clean:suddir_clean
+	$(RM) $(objs) $(deps) $(subdir_objs)
+	$(RM) $(targetname)
+	$(RM) $(targetmap)
+	$(Q)(for name in $(subdirs); do $(MAKE) -C $$name clean; done)
+
+
+

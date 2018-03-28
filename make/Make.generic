@@ -1,0 +1,60 @@
+# $Id: Make.generic,v 0.0.1 CBB $
+
+#
+# Author:  Zengchao
+# Contact: zengchao@cqu.edu.cn
+# Licence: Belong to the author 
+# Date:    2017.12.23
+#
+
+
+CBB_BIN =     $(CBB_BASE)/bin
+CBB_EXAMPLE = $(CBB_BASE)/example
+CBB_INCLUDE = $(CBB_BASE)/include
+CBB_LIB =     $(CBB_BASE)/lib
+CBB_MAKE =    $(CBB_BASE)/make
+CBB_SRC =     $(CBB_BASE)/src
+CBB_STUDY =   $(CBB_BASE)/study
+CBB_TOOLS =   $(CBB_BASE)/tools
+CBB_OBJ=      $(CBB_BASE)/obj
+
+
+#include $(CBB_BASE)/make/Make.env
+include $(CBB_BASE)/make/Make.tools
+include $(CBB_BASE)/make/Make.local
+
+
+CBB_INCLUDE_PATH := -I $(CBB_INCLUDE)
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/detect
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/dialog
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/alsa
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/base64
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/cjson
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/curl
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/http
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/log
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/md5
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/record
+#CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/sal
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/vad
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/webapi
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/webapi/baidu
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/webapi/iflytek
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/modules/webapi/tuling
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/process
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/semantic
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/tts
+
+CFLAGS += $(CBB_INCLUDE_PATH) 
+
+CFLAGS += -g 
+#CFLAGS += -O1
+#CFLAGS += -pedantic 
+#CFLAGS += -w
+CFLAGS += -Wall
+#CFLAGS += -Werror
+#CFLAGS += -fno-strict-aliasing
+#CFLAGS += -DUNIX
+
+#LDFLAGS += -lpthread -lm -lrt

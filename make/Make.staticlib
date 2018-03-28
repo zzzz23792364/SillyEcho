@@ -1,0 +1,65 @@
+# $Id: Make.staticlib,v 0.0.1 CBB $
+
+#
+# Author:  Zengchao
+# Contact: zengchao@cqu.edu.cn
+# Licence: Belong to the author 
+# Date:    2017.12.27
+#
+
+
+subdirs_libs:= $(addprefix $(CBB_LIB)/lib,$(addsuffix .a,$(subdirs)))
+
+.PHONY:$(targetlib).a 
+
+all: $(targetlib).a
+
+
+$(targetlib).a:$(objs) $(subdirs_libs) $(other_libs_objs)
+	$(Q)$(ECHO) "[Reconstruction --> $(notdir $@)]" $(foreach archive,$(notdir $^),&& $(ECHO) $(archive) "<---")	
+	$(build_static_library)
+
+
+$(subdirs_libs):$(subdirs)
+
+
+%.o:%.c
+	$(Q)$(ECHO) "$(CC) $<"
+	$(Q)$(CC) $(CFLAGS) -c $< -o $@ $(LDFLAGS)
+	
+%.d:%.c	
+	$(Q)$(CC) -M $(CFLAGS) $< > $@.$$$$ 2>/dev/null;\
+	sed 's,\($*\)\.o[:]*,\1.o $@:,g' < $@.$$$$ > $@;\
+	rm -f $@.$$$$
+	
+%:%.c
+	$(CC) $(CFLAGS) -o $< $(LDFLAGS) -o $@
+
+
+clean:suddir_clean
+	$(RM) $(objs) $(deps) 
+	$(RM) $(targetlib).*
+
+
+define build_static_library
+$(if $(wildcard $@),@$(RM) $@)
+$(if $(wildcard ar.mac),@$(RM) ar.mac)
+$(if $(filter %.a,$^),
+@echo CREATE $@ > ar.mac
+@echo SAVE >> ar.mac
+@echo END >> ar.mac
+@$(AR) -M < ar.mac
+)
+$(if $(filter %.o,$^),@$(AR) -q $@ $(filter %.o,$^))
+$(if $(filter %.a,$^),@echo OPEN $@ > ar.mac
+$(foreach LIB,$(filter %.a,$^),
+@echo ADDLIB $(LIB) >> ar.mac
+)
+@echo SAVE >> ar.mac
+@echo END >> ar.mac
+@$(AR) -M < ar.mac
+@$(RM) ar.mac
+)
+$(Q)$(AR) -s $@
+endef
+
