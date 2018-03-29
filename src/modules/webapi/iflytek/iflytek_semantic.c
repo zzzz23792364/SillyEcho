@@ -259,7 +259,7 @@ iflytek_semantic_process(post_response_data_t *back_data,
 
 		/*拷贝语义结果*/
 		char *text = cJSON_GetObjectItem(answer,"text")->valuestring;
-		int len = strlen(text);	
+		int len = strlen(text)+1;	
 		*res_result = malloc(len);
 		if(NULL == *res_result)
 		{
@@ -267,7 +267,7 @@ iflytek_semantic_process(post_response_data_t *back_data,
 			goto err_exit;
 		}
 		
-		strcpy(*res_result,text);
+		strncpy(*res_result,text,len);
 		*res_code = RET_ANSWER;
 	}
 	
@@ -324,7 +324,7 @@ iflytek_semantic_api(char *audio_data,U32 audio_len,
 
 	/*识别数据需加上"data="前缀*/
 	body_len = decode_len + strlen("data=");
-	body_data = malloc(body_len);
+	body_data = malloc(body_len+1);  //第二个BUG	,不然335行的strcat的时候会内存越界访问
 	if(NULL == body_data)
 	{
 		LOG_ERROR((BSL_META("malloc:%s\n"),strerror(errno)));
@@ -348,6 +348,9 @@ iflytek_semantic_api(char *audio_data,U32 audio_len,
 	}
 	/*使用完之后释放发送数据所占内存*/
 	free(body_data);
+
+	response_data.data = realloc(response_data.data,response_data.len+1);
+	response_data.data[response_data.len] = 0;
 
 	printf("response_data->data = %s\n",response_data.data);
 

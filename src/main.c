@@ -63,7 +63,7 @@ main(int argc,char **argv)
 	struct mq_attr setattr; 	
 
 	log_init();
-	log_console_severity_set(bslSeverityFatal,bslSeverityDebug);
+	log_console_severity_set(bslSeverityFatal,bslSeverityInfo);
 	log_file_severity_set(bslSeverityFatal,bslSeverityInfo);
 
 	system("rm record-*");
@@ -88,7 +88,7 @@ main(int argc,char **argv)
 
 	/*创建声音检测和录制线程*/
 	sal_thread_t detect_threadid = SAL_THREAD_ERROR;
-	detect_threadid = sal_thread_create("detect thread",SAL_THREAD_STKSZ*512, 
+	detect_threadid = sal_thread_create("detect thread",SAL_THREAD_STKSZ*256, 
 										0,voice_detect_thread,&snd_mqdid);
 	if(detect_threadid == SAL_THREAD_ERROR)
 	{
@@ -98,7 +98,7 @@ main(int argc,char **argv)
 
 	/*创建语义识别线程*/
 	sal_thread_t semantic_threadid = SAL_THREAD_ERROR;
-	semantic_threadid = sal_thread_create("semantic thread",SAL_THREAD_STKSZ*512, 
+	semantic_threadid = sal_thread_create("semantic thread",SAL_THREAD_STKSZ*256, 
 										0,voice_semantic_thread,&snd_mqdid);	
 	if(semantic_threadid == SAL_THREAD_ERROR)
 	{
@@ -108,7 +108,7 @@ main(int argc,char **argv)
 
 	/*创建语音合成线程*/
 	sal_thread_t tts_threadid = SAL_THREAD_ERROR;
-	tts_threadid = sal_thread_create("tts thread",SAL_THREAD_STKSZ*512, 
+	tts_threadid = sal_thread_create("tts thread",SAL_THREAD_STKSZ*256, 
 										0,voice_tts_thread,&snd_mqdid);	
 	if(tts_threadid == SAL_THREAD_ERROR)
 	{
@@ -116,8 +116,10 @@ main(int argc,char **argv)
 		return -1;
 	}
 
-	while(1);
-
+	while(1)
+	{
+		sleep(10);
+	}
 	/*Never Reach Here*/
 	return 0;
 }

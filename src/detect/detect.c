@@ -276,7 +276,6 @@ voice_detect_thread(void *arg)
 		else if(vad_res == LISTENING)
 		{
 			free(audio_data);
-			
 			LOG_DEBUG(("data ... no\n"));
 
 			/*

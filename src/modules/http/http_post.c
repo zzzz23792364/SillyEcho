@@ -40,8 +40,10 @@ size_t call_back_request(void *contents, size_t size, size_t nmemb, void *userp)
 //	mem->memory[mem->size] = 0;
 //	return realsize;
 
+
 	size_t cur_size = size * nmemb;
 	post_response_data_t *tmp = (post_response_data_t *)userp;
+	
 	tmp->data = realloc(tmp->data,tmp->len + cur_size);
 	if(NULL == tmp->data)
 	{
@@ -51,7 +53,7 @@ size_t call_back_request(void *contents, size_t size, size_t nmemb, void *userp)
 
 	memcpy(&tmp->data[tmp->len],contents,cur_size);
 	tmp->len += cur_size;
-	tmp->data[tmp->len] = 0;
+//	tmp->data[tmp->len] = 0;
 	return cur_size;
 
 //	post_response_data_t *tmp = (post_response_data_t *)userp;
