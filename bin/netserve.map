@@ -1,0 +1,501 @@
+Archive member included because of file (symbol)
+
+/home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libc_nonshared.a(elf-init.oS)
+                              /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o (__libc_csu_fini)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtbegin.o
+ .note.GNU-stack
+                0x00000000        0x0 netserve.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x00000000        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtend.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtbegin.o
+LOAD netserve.o
+START GROUP
+END GROUP
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libutil.so
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libpthread.so
+START GROUP
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/lib/libpthread.so.0
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libpthread_nonshared.a
+END GROUP
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libm.so
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/librt.so
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/lib/libgcc_s.so
+START GROUP
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/lib/libgcc_s.so.1
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a
+END GROUP
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libc.so
+START GROUP
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/lib/libc.so.6
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libc_nonshared.a
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/lib/ld-linux.so.3
+END GROUP
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/lib/libgcc_s.so
+START GROUP
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/../../../../arm-none-linux-gnueabi/lib/libgcc_s.so.1
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a
+END GROUP
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtend.o
+LOAD /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crtn.o
+                0x00008000                PROVIDE (__executable_start, 0x8000)
+                0x00008174                . = (0x8000 + SIZEOF_HEADERS)
+
+.interp         0x00008174       0x13
+ *(.interp)
+ .interp        0x00008174       0x13 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+
+.note.ABI-tag   0x00008188       0x20
+ .note.ABI-tag  0x00008188       0x20 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000081a8       0xd4
+ *(.hash)
+ .hash          0x000081a8       0xd4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+
+.gnu.hash       0x0000827c       0xf0
+ *(.gnu.hash)
+ .gnu.hash      0x0000827c       0xf0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+
+.dynsym         0x0000836c      0x220
+ *(.dynsym)
+ .dynsym        0x0000836c      0x220 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+
+.dynstr         0x0000858c      0x140
+ *(.dynstr)
+ .dynstr        0x0000858c      0x140 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+
+.gnu.version    0x000086cc       0x44
+ *(.gnu.version)
+ .gnu.version   0x000086cc       0x44 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+
+.gnu.version_d  0x00008710        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+
+.gnu.version_r  0x00008710       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00008710       0x60 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+
+.rel.dyn        0x00008770       0x10
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00008770        0x8 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x00008778        0x8 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+                0x00008780                PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+                0x00008780                PROVIDE (__rel_iplt_end, .)
+                0x00008780                PROVIDE (__rela_iplt_start, .)
+                0x00008780                PROVIDE (__rela_iplt_end, .)
+
+.rela.dyn       0x00008780        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                0x00008780                PROVIDE (__rel_iplt_start, .)
+                0x00008780                PROVIDE (__rel_iplt_end, .)
+                0x00008780                PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+                0x00008780                PROVIDE (__rela_iplt_end, .)
+
+.rel.plt        0x00008780       0xf8
+ *(.rel.plt)
+ .rel.plt       0x00008780       0xf8 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x00008878       0x10
+ *(.init)
+ .init          0x00008878        0x8 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+                0x00008878                _init
+ .init          0x00008880        0x8 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crtn.o
+
+.plt            0x00008888      0x188
+ *(.plt)
+ .plt           0x00008888      0x188 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+                0x0000889c                abort@@GLIBC_2.4
+                0x000088a8                __libc_start_main@@GLIBC_2.4
+                0x000088b4                signal@@GLIBC_2.4
+                0x000088cc                listen@@GLIBC_2.4
+                0x000088d8                htons@@GLIBC_2.4
+                0x000088e4                memset@@GLIBC_2.4
+                0x000088f0                fsync@@GLIBC_2.4
+                0x000088fc                setsid@@GLIBC_2.4
+                0x00008908                perror@@GLIBC_2.4
+                0x00008914                usleep@@GLIBC_2.4
+                0x00008920                read@@GLIBC_2.4
+                0x0000892c                write@@GLIBC_2.4
+                0x00008938                accept@@GLIBC_2.4
+                0x00008944                socket@@GLIBC_2.4
+                0x00008950                pthread_create@@GLIBC_2.4
+                0x0000895c                execv@@GLIBC_2.4
+                0x00008968                waitpid@@GLIBC_2.4
+                0x00008974                raise@@GLIBC_2.4
+                0x00008980                atoi@@GLIBC_2.4
+                0x0000898c                bind@@GLIBC_2.4
+                0x00008998                close@@GLIBC_2.4
+                0x000089a4                fwrite@@GLIBC_2.4
+                0x000089b0                openpty@@GLIBC_2.4
+                0x000089bc                dup2@@GLIBC_2.4
+                0x000089c8                puts@@GLIBC_2.4
+                0x000089d4                fork@@GLIBC_2.4
+                0x000089e0                htonl@@GLIBC_2.4
+                0x000089ec                setsockopt@@GLIBC_2.4
+                0x000089f8                strcmp@@GLIBC_2.4
+                0x00008a04                exit@@GLIBC_2.4
+
+.iplt
+ *(.iplt)
+
+.text           0x00008a10      0x960
+ *(.text.unlikely .text.*_unlikely)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00008a10       0x38 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+                0x00008a10                _start
+ .text          0x00008a48       0x2c /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+ .text          0x00008a74       0x50 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtbegin.o
+ .text          0x00008ac4      0x838 netserve.o
+                0x0000904c                main
+ .text          0x000092fc       0x74 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libc_nonshared.a(elf-init.oS)
+                0x000092fc                __libc_csu_fini
+                0x00009300                __libc_csu_init
+ .text          0x00009370        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtend.o
+ .text          0x00009370        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crtn.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.fini           0x00009370        0xc
+ *(.fini)
+ .fini          0x00009370        0x4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+                0x00009370                _fini
+ .fini          0x00009374        0x8 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crtn.o
+                0x0000937c                PROVIDE (__etext, .)
+                0x0000937c                PROVIDE (_etext, .)
+                0x0000937c                PROVIDE (etext, .)
+
+.rodata         0x0000937c       0xf4
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000937c        0x4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+                0x0000937c                _IO_stdin_used
+ .rodata        0x00009380       0xf0 netserve.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x00009470        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x00009470        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+                0x00009470                __exidx_start = .
+
+.ARM.exidx      0x00009470        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00009470        0x8 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+                0x00009478                __exidx_end = .
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x00009478        0x4
+ *(.eh_frame)
+ .eh_frame      0x00009478        0x4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x0000947c                . = (ALIGN (0x8000) - ((0x8000 - .) & 0x7fff))
+                0x00011ee4                . = (0x8000 DATA_SEGMENT_ALIGN 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x00011ee4        0x0
+                0x00011ee4                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x00011ee4                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00011ee4        0x4
+                0x00011ee4                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00011ee4        0x4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtbegin.o
+                0x00011ee8                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00011ee8        0x4
+                0x00011ee8                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ .fini_array    0x00011ee8        0x4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x00011eec                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x00011eec        0x4
+ *(.jcr)
+ .jcr           0x00011eec        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtbegin.o
+ .jcr           0x00011eec        0x4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x00011ef0      0x110
+ *(.dynamic)
+ .dynamic       0x00011ef0      0x110 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+                0x00011ef0                _DYNAMIC
+                0x00012000                . = (. DATA_SEGMENT_RELRO_END 0x0)
+
+.got            0x00012000       0x8c
+ *(.got.plt)
+ .got.plt       0x00012000       0x88 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+                0x00012000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x00012088        0x4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+ *(.igot)
+
+.data           0x0001208c       0x18
+                0x0001208c                PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0001208c        0x4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+                0x0001208c                data_start
+                0x0001208c                __data_start
+ .data          0x00012090        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+ .data          0x00012090        0x4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtbegin.o
+                0x00012090                __dso_handle
+ .data          0x00012094       0x10 netserve.o
+ .data          0x000120a4        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libc_nonshared.a(elf-init.oS)
+ .data          0x000120a4        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtend.o
+ .data          0x000120a4        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crtn.o
+
+.data1
+ *(.data1)
+                0x000120a4                _edata = .
+                0x000120a4                PROVIDE (edata, .)
+                0x000120a4                __bss_start = .
+                0x000120a4                __bss_start__ = .
+
+.bss            0x000120a8        0xc
+ *(.dynbss)
+ .dynbss        0x000120a8        0x4 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+                0x000120a8                stderr@@GLIBC_2.4
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000120ac        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+ .bss           0x000120ac        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+ .bss           0x000120ac        0x1 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtbegin.o
+ *fill*         0x000120ad        0x3 00
+ .bss           0x000120b0        0x4 netserve.o
+ .bss           0x000120b4        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x000120b4        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtend.o
+ .bss           0x000120b4        0x0 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crtn.o
+ *(COMMON)
+                0x000120b4                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000120b4                _bss_end__ = .
+                0x000120b4                __bss_end__ = .
+                0x000120b4                . = ALIGN (0x4)
+                0x000120b4                . = ALIGN (0x4)
+                0x000120b4                __end__ = .
+                0x000120b4                _end = .
+                0x000120b4                PROVIDE (end, .)
+                0x000120b4                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.ARM.attributes
+                0x00000000       0x26
+ .ARM.attributes
+                0x00000000       0x26 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+ .ARM.attributes
+                0x00000026       0x2f /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+ .ARM.attributes
+                0x00000055       0x2a /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtbegin.o
+ .ARM.attributes
+                0x0000007f       0x2a netserve.o
+ .ARM.attributes
+                0x000000a9       0x2f /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x000000d8       0x2a /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtend.o
+ .ARM.attributes
+                0x00000102       0x2f /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crtn.o
+
+.comment        0x00000000       0x29
+ *(.comment)
+ .comment       0x00000000       0x11 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crt1.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crti.o
+ .comment       0x00000011       0x18 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtbegin.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000000       0x19 netserve.o
+ .comment       0x00000000       0x12 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/libc_nonshared.a(elf-init.oS)
+ .comment       0x00000000       0x19 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/crtend.o
+ .comment       0x00000000       0x12 /home/zengchao/share/opt/FriendlyARM/toolschain/4.4.3/bin/../arm-none-linux-gnueabi//sys-root/usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 netserve.o
+
+.debug_pubnames
+                0x00000000       0x1b
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x1b netserve.o
+
+.debug_info     0x00000000      0x76c
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x76c netserve.o
+
+.debug_abbrev   0x00000000      0x1ac
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x1ac netserve.o
+
+.debug_line     0x00000000      0x370
+ *(.debug_line)
+ .debug_line    0x00000000      0x370 netserve.o
+
+.debug_frame    0x00000000      0x130
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x130 netserve.o
+
+.debug_str      0x00000000      0x3e8
+ *(.debug_str)
+ .debug_str     0x00000000      0x3e8 netserve.o
+                                0x457 (size before relaxing)
+
+.debug_loc      0x00000000      0x183
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x183 netserve.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(/home/zengchao/share/SillyEcho/bin/netserve.out elf32-littlearm)

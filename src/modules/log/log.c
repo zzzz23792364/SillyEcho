@@ -19,6 +19,7 @@
 
 
 #include <stdlib.h>
+#include <time.h>
 #include <sal/core/libc.h>
 
 #include "log.h"
@@ -38,6 +39,40 @@ log_sever_info_t log_sever_array[]=
 	{"Verbose",__GREEN__},
 	{"Debug",__WHITE__}
 };
+
+
+
+static char log_time[256];
+
+/*****************************************************************************
+ * Function      : bsl_log_time
+ * Description   : 获取LOG时间
+ * Input          : None
+ * Output        : None
+ * Return        : 
+ * Others        : 
+ * Record
+ * 1.Date        : 20180330
+ *   Author      : ZengChao
+ *   Modification: Created function
+
+*****************************************************************************/
+char*
+bsl_log_time()
+{
+	memset(log_time,0,sizeof(log_time));
+
+	time_t cur_time = time(0);
+
+	struct tm *tm_time = localtime(&cur_time);
+	
+	snprintf(log_time,sizeof(log_time),"%d.%02d.%02d %02d:%02d:%02d",
+		1900+tm_time->tm_year,1+tm_time->tm_mon,tm_time->tm_mday,
+		tm_time->tm_hour,tm_time->tm_min,tm_time->tm_sec);
+
+	return log_time;
+}
+
 
 
 static int
@@ -72,6 +107,7 @@ bsl_meta_t_init(bsl_meta_t *meta)
 	meta->file = NULL;
 	meta->func = NULL;
 	meta->line = -1;
+	meta->time = bsl_log_time();
 }
 
 

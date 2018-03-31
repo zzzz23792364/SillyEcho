@@ -44,11 +44,13 @@ log_file_vfprintf(void *file,bsl_meta_t *meta,const char*format,va_list args)
 		return -1;
 	}
 
-	if( meta->func && meta->file && (meta->line!=-1))
+	if( meta->func && meta->file && (meta->line!=-1) && (meta->time != NULL))
 	{
 		char *severInstr = log_sever_array[meta->severity].severInstr;
 
-		sprintf(log_prefix,"[%s in %s:%d] %s: ",meta->func,meta->file,meta->line,severInstr);
+		snprintf(log_prefix,sizeof(log_prefix),
+				"[%s][%s in %s:%d] %s: ",
+				meta->time,meta->func,meta->file,meta->line,severInstr);
 		
 		fwrite(log_prefix,sizeof(char),strlen(log_prefix),file_fp);
 	}

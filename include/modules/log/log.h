@@ -92,6 +92,7 @@ typedef struct log_sever_info_e
 typedef struct bsl_meta_s {
     const char *func;
     const char *file;
+	const char *time; //时间戳 
     int line;
 
 	log_module_t module;

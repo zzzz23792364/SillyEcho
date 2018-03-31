@@ -66,7 +66,7 @@ voice_tts_thread(void *arg)
 		LOG_DEBUG(("即将开始语音合成\n"));
 
 		tts_list_t *entry = tts_list_head;
-		text_len = strlen(entry->text)+1;
+		text_len = strlen(entry->text)+1; //根据valgrind找到的第一个BUG
 		tts_text = malloc(text_len);		
 		if(NULL == tts_text)
 		{
