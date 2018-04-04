@@ -99,8 +99,8 @@ http_get_request(char*host_url,post_response_data_t *back_data)
 	curl = curl_easy_init();
 	curl_easy_setopt(curl, CURLOPT_URL, host_url);
 	curl_easy_setopt(curl, CURLOPT_POST, 0);	
-	curl_easy_setopt(curl, CURLOPT_HEADER, 1);
-	curl_easy_setopt(curl, CURLOPT_VERBOSE, 1);
+//	curl_easy_setopt(curl, CURLOPT_HEADER, 1);
+//	curl_easy_setopt(curl, CURLOPT_VERBOSE, 1);
 	curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, call_back_request);
 	curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void * )back_data);
 	
