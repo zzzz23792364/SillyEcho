@@ -33,6 +33,8 @@ subdirs+=modules
 subdirs+=process
 subdirs+=semantic
 subdirs+=tts
+subdirs+=service
+subdirs+=playback
 
 ifeq ($(MAKELEVEL),0)
 TOPMAKE=1

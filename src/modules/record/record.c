@@ -6,7 +6,7 @@
 
 #include "record.h"
 
-#define DEFAULT_RECORD_DEVICE "hw:0,0"
+#define DEFAULT_RECORD_DEVICE "hw:0,0" //"plughw:1,0"
 
 #define DETECT_WINDOWS_SIZE  300  //300
 

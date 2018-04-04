@@ -40,7 +40,7 @@ target_path = $(CBB_BIN)
 
 CBB_INCLUDE_PATH += -I $(READLINE_PATH)/include
 
-LDFLAGS += -L $(CBB_LIB) -lasound -lcurl -lmsc
+LDFLAGS += -L $(CBB_LIB) -lasound -lcurl -lmsc -lmad
 #LDFLAGS += -L $(CBB_LIB) -lcurl
 LDFLAGS += -lrt -lz -ldl
 #LDFLAGS += -lrt -lpthread -ldl -lz

@@ -29,13 +29,6 @@
 #include "webapi.h"
 
 
-
-extern pthread_mutex_t tts_lock;
-extern pthread_cond_t  tts_ready;
-
-
-
-
 /*****************************************************************************
  * Function      : get_audio_file
  * Description   : 读出音频文件内容

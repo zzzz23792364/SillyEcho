@@ -33,6 +33,9 @@
 #include "detect.h"
 #include "tts.h"
 #include "webapi.h"
+#include "service_news.h"
+#include "play_audio.h"
+
 
 #define VOICE_QUEUE_NAME   "/void_queue"
 
@@ -67,6 +70,7 @@ main(int argc,char **argv)
 	log_file_severity_set(bslSeverityFatal,bslSeverityInfo);
 
 	system("rm record-*");
+	system("rm news-*");
 
 	web_api_config(&webapi);
 
@@ -109,10 +113,30 @@ main(int argc,char **argv)
 	/*创建语音合成线程*/
 	sal_thread_t tts_threadid = SAL_THREAD_ERROR;
 	tts_threadid = sal_thread_create("tts thread",SAL_THREAD_STKSZ*256, 
-										0,voice_tts_thread,&snd_mqdid);	
+										0,voice_tts_thread,NULL);	
 	if(tts_threadid == SAL_THREAD_ERROR)
 	{
 		LOG_FATAL((BSL_META("voice_tts_thread create failed\n")));
+		return -1;
+	}
+
+	/*创建新闻服务线程*/
+	sal_thread_t news_threadid = SAL_THREAD_ERROR;
+	news_threadid = sal_thread_create("news thread",SAL_THREAD_STKSZ*256, 
+										0,service_news_thread,NULL); 
+	if(news_threadid == SAL_THREAD_ERROR)
+	{
+		LOG_FATAL((BSL_META("service_news_thread create failed\n")));
+		return -1;
+	}
+
+	/*创建音频播放线程*/
+	sal_thread_t play_threadid = SAL_THREAD_ERROR;
+	play_threadid = sal_thread_create("play thread",SAL_THREAD_STKSZ*256, 
+										0,play_audio_thread,NULL); 
+	if(play_threadid == SAL_THREAD_ERROR)
+	{
+		LOG_FATAL((BSL_META("service_news_thread create failed\n")));
 		return -1;
 	}
 

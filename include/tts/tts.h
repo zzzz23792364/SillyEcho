@@ -36,6 +36,8 @@ typedef struct tts_list_s
 	struct tts_list_s *next;
 }tts_list_t;
 
+extern pthread_mutex_t tts_lock;
+extern pthread_cond_t  tts_ready;
 extern tts_list_t *tts_list_head;
 
 

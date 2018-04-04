@@ -228,16 +228,7 @@ iflytek_tts_api(char *text,char *filename)
 	printf("合成完毕\n");
 	
 	MSPLogout(); //退出登录
-
-	char cmd[256];
-
-	strcpy(cmd,"aplay ");
-	strcat(cmd,filename);
-
-	printf("cmd = %s\n",cmd);
 	
-	system(cmd);
-
 	return 0;
 	
 exit:
