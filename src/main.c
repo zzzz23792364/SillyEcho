@@ -66,7 +66,7 @@ main(int argc,char **argv)
 	struct mq_attr setattr; 	
 
 	log_init();
-	log_console_severity_set(bslSeverityFatal,bslSeverityInfo);
+	log_console_severity_set(bslSeverityFatal,bslSeverityNormal);
 	log_file_severity_set(bslSeverityFatal,bslSeverityInfo);
 
 	system("rm record-*");
