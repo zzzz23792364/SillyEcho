@@ -111,9 +111,8 @@ http_get_request(char*host_url,post_response_data_t *back_data)
 		return -1;
 	}
 
-//	printf("\nback_data->data = %s\n",back_data->data);
 	curl_easy_cleanup(curl);
-//	curl_global_cleanup();
+	curl_global_cleanup();
 
 	return 0;
 }
@@ -163,11 +162,9 @@ http_post_request(char *host_url,struct curl_slist * headerlist,
 		return ret;
 	}
 
-//	printf("\nback_data->data = %s\n",back_data->data);
-	
 	curl_slist_free_all(headerlist);
 	curl_easy_cleanup(curl);
-//	curl_global_cleanup();
+	curl_global_cleanup();
 
 	return 0;
 }

@@ -3,22 +3,22 @@
  **** Copyright (C), 2018, xx xx xx xx info&tech Co., Ltd.                ****
 
  ********************************************************************************
- * File Name     : play_audio.h
+ * File Name     : iflytek_service.h
  * Author        : Zengchao
- * Date          : 2018-04-05
- * Description   : play_audio.c header file
+ * Date          : 2018-04-06
+ * Description   : iflytek_service.c header file
  * Version       : 1.0
  * Function List :
  * 
  * Record        :
- * 1.Date        : 2018-04-05
+ * 1.Date        : 2018-04-06
  *   Author      : Zengchao
  *   Modification: Created file
 
 *************************************************************************************************************/
 
-#ifndef __PLAY_AUDIO_H__
-#define __PLAY_AUDIO_H__
+#ifndef __IFLYTEK_SERVICE_H__
+#define __IFLYTEK_SERVICE_H__
 
 
 #ifdef __cplusplus
@@ -27,26 +27,9 @@ extern "C"{
 #endif
 #endif /* __cplusplus */
 
-typedef enum audio_type_s
-{
-	AUDIO_PCM,
-	AUDIO_WAV,
-	AUDIO_MP3,
-	AUDIO_M4A
-}audio_type_t;
+#include "cJSON.h"
 
-typedef struct play_list_s
-{
-	char audio_name[256];
-	audio_type_t audio_type;
-	struct play_list_s *next;
-}play_list_t;
-
-extern play_list_t *play_list_head;
-extern pthread_mutex_t play_lock;	
-extern pthread_cond_t play_ready;
-
-extern void play_audio_thread(void *arg);
+extern void iflytek_service_process(cJSON *data);
 
 #ifdef __cplusplus
 #if __cplusplus
@@ -55,4 +38,4 @@ extern void play_audio_thread(void *arg);
 #endif /* __cplusplus */
 
 
-#endif /* __PLAY_AUDIO_H__ */
+#endif /* __IFLYTEK_SERVICE_H__ */

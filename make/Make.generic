@@ -47,6 +47,7 @@ CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/semantic
 CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/tts
 CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/service
 CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/service/news
+CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/service/crosstalk
 CBB_INCLUDE_PATH += -I $(CBB_INCLUDE)/playback
 
 

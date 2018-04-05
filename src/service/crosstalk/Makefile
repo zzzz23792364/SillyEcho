@@ -28,8 +28,6 @@ endif
 export CBB_BASE
 
 
-subdirs:=news
-subdirs+=crosstalk
 
 ifeq ($(MAKELEVEL),0)
 TOPMAKE=1

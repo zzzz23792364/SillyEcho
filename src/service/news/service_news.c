@@ -107,6 +107,7 @@ service_news_thread(void *arg)
 		}
 
 		free(back_data.data);
+		fclose(fp);
 
 		/*将音频文件名发给播放线程播放*/
 		pthread_mutex_lock(&play_lock);

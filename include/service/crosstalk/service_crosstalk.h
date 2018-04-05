@@ -3,22 +3,22 @@
  **** Copyright (C), 2018, xx xx xx xx info&tech Co., Ltd.                ****
 
  ********************************************************************************
- * File Name     : play_audio.h
+ * File Name     : service_crosstalk.h
  * Author        : Zengchao
- * Date          : 2018-04-05
- * Description   : play_audio.c header file
+ * Date          : 2018-04-06
+ * Description   : service_crosstalk.c header file
  * Version       : 1.0
  * Function List :
  * 
  * Record        :
- * 1.Date        : 2018-04-05
+ * 1.Date        : 2018-04-06
  *   Author      : Zengchao
  *   Modification: Created file
 
 *************************************************************************************************************/
 
-#ifndef __PLAY_AUDIO_H__
-#define __PLAY_AUDIO_H__
+#ifndef __SERVICE_CROSSTALK_H__
+#define __SERVICE_CROSSTALK_H__
 
 
 #ifdef __cplusplus
@@ -27,26 +27,19 @@ extern "C"{
 #endif
 #endif /* __cplusplus */
 
-typedef enum audio_type_s
+
+typedef struct crosstalk_list_s
 {
-	AUDIO_PCM,
-	AUDIO_WAV,
-	AUDIO_MP3,
-	AUDIO_M4A
-}audio_type_t;
+	char *url;
+	struct crosstalk_list_s *next;
+}crosstalk_list_t;
 
-typedef struct play_list_s
-{
-	char audio_name[256];
-	audio_type_t audio_type;
-	struct play_list_s *next;
-}play_list_t;
+extern crosstalk_list_t* crosstalk_url_head;
+extern pthread_mutex_t crosstalk_lock;
+extern pthread_cond_t crosstalk_ready;
 
-extern play_list_t *play_list_head;
-extern pthread_mutex_t play_lock;	
-extern pthread_cond_t play_ready;
 
-extern void play_audio_thread(void *arg);
+extern void service_crosstalk_thread(void *arg);
 
 #ifdef __cplusplus
 #if __cplusplus
@@ -55,4 +48,4 @@ extern void play_audio_thread(void *arg);
 #endif /* __cplusplus */
 
 
-#endif /* __PLAY_AUDIO_H__ */
+#endif /* __SERVICE_CROSSTALK_H__ */

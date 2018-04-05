@@ -57,13 +57,6 @@ static silent_detect_t silent = {0,DETECT_NO};
 static vad_status_t    current_status = LISTENING;
 
 
-//voice_rec_area_init()
-//{
-//	if(access(RECORD_PATH,F_OK) == 0)
-//		
-//}
-
-
 /*****************************************************************************
  * Function      : stereo_to_mono
  * Description   : 将立体声音频数据转化成单声道数据
@@ -276,7 +269,7 @@ voice_detect_thread(void *arg)
 		else if(vad_res == LISTENING)
 		{
 			free(audio_data);
-			LOG_DEBUG(("data ... no\n"));
+//			LOG_DEBUG(("data ... no\n"));
 
 			/*
 				必须连续识别到SILENT_WINDOW_CNT个静音区才表示真的静音,防止出现说话中间停顿

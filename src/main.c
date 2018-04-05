@@ -33,8 +33,10 @@
 #include "detect.h"
 #include "tts.h"
 #include "webapi.h"
-#include "service_news.h"
 #include "play_audio.h"
+#include "service_news.h"
+#include "service_crosstalk.h"
+
 
 
 #define VOICE_QUEUE_NAME   "/void_queue"
@@ -71,6 +73,7 @@ main(int argc,char **argv)
 
 	system("rm record-*");
 	system("rm news-*");
+	system("rm crosstalk*");
 
 	web_api_config(&webapi);
 
@@ -120,15 +123,6 @@ main(int argc,char **argv)
 		return -1;
 	}
 
-	/*创建新闻服务线程*/
-	sal_thread_t news_threadid = SAL_THREAD_ERROR;
-	news_threadid = sal_thread_create("news thread",SAL_THREAD_STKSZ*256, 
-										0,service_news_thread,NULL); 
-	if(news_threadid == SAL_THREAD_ERROR)
-	{
-		LOG_FATAL((BSL_META("service_news_thread create failed\n")));
-		return -1;
-	}
 
 	/*创建音频播放线程*/
 	sal_thread_t play_threadid = SAL_THREAD_ERROR;
@@ -140,6 +134,31 @@ main(int argc,char **argv)
 		return -1;
 	}
 
+	/*创建新闻服务线程*/
+	sal_thread_t news_threadid = SAL_THREAD_ERROR;
+	news_threadid = sal_thread_create("news thread",SAL_THREAD_STKSZ*256, 
+										0,service_news_thread,NULL); 
+	if(news_threadid == SAL_THREAD_ERROR)
+	{
+		LOG_FATAL((BSL_META("service_news_thread create failed\n")));
+		return -1;
+	}
+
+	/*创建新闻服务线程*/
+	sal_thread_t talk_threadid = SAL_THREAD_ERROR;
+	talk_threadid = sal_thread_create("crosstalk thread",SAL_THREAD_STKSZ*256, 
+										0,service_crosstalk_thread,NULL); 
+	if(talk_threadid == SAL_THREAD_ERROR)
+	{
+		LOG_FATAL((BSL_META("service_crosstalk_thread create failed\n")));
+		return -1;
+	}
+
+
+	LOG_INFO(("###################################################\n"));
+	LOG_INFO(("############    Hello,SillyEcho    ################\n"));
+	LOG_INFO(("###################################################\n\n"));
+		
 	while(1)
 	{
 		sleep(10);
