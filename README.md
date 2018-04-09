@@ -7,8 +7,9 @@
 **软件平台：** LINUX<br>
 **其它外设：** 板上麦克风（拾音距离近）或USB声卡（拾音距离远，但回声消除目前不支持，会一直触发语音识别），3.5mm接口音箱（最好可接电源，不然还需要定时充电）<br>
 **目前支持的服务：** 询问时间、询问天气、播放新闻（MP3格式）、播放相声（M4A格式）<br>
-**涉及知识点：** 线程间通信、线程间同步、HTTP、SOCKET、libcurl、libcjson、libmad、libfaad、WAV、PCM、MP3、MPEG-4标准、ALSA、webrtc-vad、uboot、kernel、rootfs
-
+**服务需求来源：** 懒癌<br>
+**涉及知识点：** 线程间通信、线程间同步、HTTP、SOCKET、libcurl、libcjson、libmad、libfaad、WAV、PCM、MP3、MPEG-4标准、ALSA、webrtc-vad、uboot、kernel、rootfs<br>
+**后续开发计划：** 语音开关灯<br>
 
 ### 2.详细开发流程记录
 [#MINI2440实现语音识别# （一）整体概述和实现流程记录](https://blog.csdn.net/sinat_26551021/article/details/79476056)
